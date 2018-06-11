@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="06_06_18_BitOperations" />
+        <module name="10_06_18_SportLoto" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="06_06_18_BitOperations" target="1.5" />
+      <module name="10_06_18_SportLoto" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
