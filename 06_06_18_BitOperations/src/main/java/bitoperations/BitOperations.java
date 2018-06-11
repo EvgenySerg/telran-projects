@@ -113,7 +113,12 @@ public class BitOperations {
         return sum==0;
     }
 
-
+    /**
+     *
+     * @param number source value where need to find desired sum of two bit index
+     * @param sum is desired sum of two any bit index (if bit value is not equal zero)
+     * @return false - the sum was not found, true - the sum was found
+     */
     public static boolean is2BitSum(long number, int sum) {
         if (sum>MAX_BIT_NUMBER-1+MAX_BIT_NUMBER || sum<0){
             return false;
