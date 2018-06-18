@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="06_06_18_BitOperations" />
         <module name="10_06_18_SportLoto" />
+        <module name="2018_06_13_ArrayInt" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="06_06_18_BitOperations" target="1.5" />
       <module name="10_06_18_SportLoto" target="1.5" />
+      <module name="2018_06_13_ArrayInt" target="1.5" />
+      <module name="_2018_06_13_arrayInt" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

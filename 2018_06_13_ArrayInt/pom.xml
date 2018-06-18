@@ -5,12 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>telran</groupId>
-    <artifactId>06_06_18_BitOperations</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>2018_06_13_ArrayInt</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>2018_06_13_arrayInt</module>
-    </modules>
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>

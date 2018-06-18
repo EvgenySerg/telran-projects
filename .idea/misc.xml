@@ -5,7 +5,13 @@
       <list>
         <option value="$PROJECT_DIR$/06_06_18_BitOperations/pom.xml" />
         <option value="$PROJECT_DIR$/10_06_18_SportLoto/pom.xml" />
+        <option value="$PROJECT_DIR$/2018_06_13_ArrayInt/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/06_06_18_BitOperations/2018_06_13_arrayInt/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager">

@@ -119,46 +119,79 @@ public class BitOperations {
      * @param sum is desired sum of two any bit index (if bit value is not equal zero)
      * @return false - the sum was not found, true - the sum was found
      */
-    public static boolean is2BitSum(long number, int sum) {
-        if (sum>MAX_BIT_NUMBER-1+MAX_BIT_NUMBER || sum<0){
-            return false;
-        }
-
-        if (number==0){
-            return sum == 0;
-        }
-
-        int smallIndex=sum>>1;
-        int bigIndex=sum-smallIndex;
-        if (bigIndex==smallIndex) {
-            smallIndex--;
-            if (smallIndex<0){
-                return BitOperations.getBitValue(number, bigIndex) == sum;
-            }
-        }
-
-        int result;
-        while (smallIndex>=MIN_BIT_NUMBER || bigIndex<=MAX_BIT_NUMBER){
-                result = (int)  (BitOperations.getBitValue(number,bigIndex)*bigIndex+BitOperations.getBitValue(number,smallIndex)*smallIndex);
-                if (result==sum) {
-                    return true;
-                } else if (result>sum){
-                    if (smallIndex>MIN_BIT_NUMBER){
-                        smallIndex--;
-                    } else {
-                        return false;
-                    }
-                } else  {
-                    if (bigIndex<MAX_BIT_NUMBER){
-                        bigIndex++;
-                        if (bigIndex>sum){
-                            return false;
-                        }
-                    } else {
-                        return false;
-                    }
+    public static boolean is2BitSum1(long number, int sum) {
+//        if (sum>MAX_BIT_NUMBER-1+MAX_BIT_NUMBER || sum<0 ){
+//            return false;
+//        }
+//
+//        if (number==0){
+//            return sum == 0;
+//        }
+//
+//        int smallIndex=sum>>1;
+//        int bigIndex=sum-smallIndex;
+//        if (bigIndex==smallIndex) {
+//            smallIndex--;
+//            if (smallIndex<0){
+//                return BitOperations.getBitValue(number, bigIndex) == sum;
+//            }
+//        }
+//
+//        int result;
+//        while (smallIndex>=MIN_BIT_NUMBER || bigIndex<=MAX_BIT_NUMBER){
+//                result = (int)  (BitOperations.getBitValue(number,bigIndex)*bigIndex+BitOperations.getBitValue(number,smallIndex)*smallIndex);
+//                if (result==sum) {
+//                    return true;
+//                } else if (result>sum){
+//                    if (smallIndex>MIN_BIT_NUMBER){
+//                        smallIndex--;
+//                    } else {
+//                        return false;
+//                    }
+//                } else  {
+//                    if (bigIndex<MAX_BIT_NUMBER){
+//                        bigIndex++;
+//                        if (bigIndex>sum){
+//                            return false;
+//                        }
+//                    } else {
+//                        return false;
+//                    }
+//                }
+//        }
+//        return false;
+//    }
+       int n=0;
+        if (sum < 0 || sum > 125) return false;
+        int startIndex=sum>MAX_BIT_NUMBER?sum-MAX_BIT_NUMBER:0;
+        for (int i = startIndex ; i<MAX_BIT_NUMBER; i++) {
+                if ((BitOperations.getBitValue(number, i) == 1) && (BitOperations.getBitValue(number, sum - i) ==1) && i!=sum-i) {
+                    System.out.print(sum+": "+n+"\t");
+                     return true;
                 }
+                n++;
         }
+        System.out.print(sum+": "+n+"\t");
+        return sum==0;
+    }
+
+    public static boolean is2BitSum(long number, int sum) {
+        if (number==0 && sum==0) return true;
+        int n=0;
+        if (sum > 125 || sum < 1)
+            return false;
+        int min = 0;
+        int max = sum;
+        while (max > min) {
+            if (getBitValue(number, max)==1 && getBitValue(number, min)==1) {
+                System.out.print(sum+": "+n+"\t");
+                return true;
+            }
+            max--;
+            min++;
+            n++;
+        }
+        System.out.print(sum+": "+n+"\t");
         return false;
     }
 }

@@ -117,32 +117,40 @@ class BitOperationsTest {
     @Test
     void is2BitSum() {
         boolean[] expValues = {
-                false,
-                true,
-                true,
-                true,
-                true,
-                false,
-                false,
-                false,
-                true,
-                false,
-                true
+                false, // 0
+                true,  // 1
+                true,  // 2
+                true,  // 3
+                true,  // 4
+                true,  // 5
+                false, // 6
+                false, // 7
+                false, // 8
+                false, // 9
+                true,  // 10
+                false, // 11
+                true, // 12
+                true,   //13
+                true    // 14
         };
         assertArrayEquals(expValues, new boolean[]{
-                BitOperations.is2BitSum(0, 1),
-                BitOperations.is2BitSum(0xffff, 2),
-                BitOperations.is2BitSum(Long.MAX_VALUE, 15),
-                BitOperations.is2BitSum(0, 0),
-                BitOperations.is2BitSum(0x45FD5L, 20),
-                BitOperations.is2BitSum(Long.MAX_VALUE, 125),
-                BitOperations.is2BitSum(Long.MAX_VALUE, 130),
-                BitOperations.is2BitSum(Long.MIN_VALUE, 10),
-                BitOperations.is2BitSum(Long.MAX_VALUE, 61+62),
-                BitOperations.is2BitSum(0x1001, 10),
-                BitOperations.is2BitSum(0x1001, 12)
+                BitOperations.is2BitSum(0, 1),                  // 0
+                BitOperations.is2BitSum(0xffff, 2),             // 1
+                BitOperations.is2BitSum(Long.MAX_VALUE, 15),            // 2
+                BitOperations.is2BitSum(0, 0),                  // 3
+                BitOperations.is2BitSum(0x45FD5L, 20),          // 4
+                BitOperations.is2BitSum( 0xC000000000000000L, 125),       //5
+                BitOperations.is2BitSum(Long.MAX_VALUE, 130),           // 6
+                BitOperations.is2BitSum(Long.MIN_VALUE, 10),            // 7
 
+                BitOperations.is2BitSum(Long.MAX_VALUE, 62+62),         // 8
 
+                BitOperations.is2BitSum(0x1001, 10),            // 9
+                BitOperations.is2BitSum(0x1001, 12) ,           // 10
+                BitOperations.is2BitSum(1,1),                   // 11
+                BitOperations.is2BitSum(-1,1),                  // 12
+                BitOperations.is2BitSum(0x2AAA, 10),             // 13
+                BitOperations.is2BitSum(0xaa, 8)                 // 14
         });
     }
 }

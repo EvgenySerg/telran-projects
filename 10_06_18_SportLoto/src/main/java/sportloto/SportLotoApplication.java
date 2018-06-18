@@ -15,6 +15,9 @@ public class SportLotoApplication {
             }
         }
 
+        LongBits longBits = new LongBits(0);
+
+
     }
 
     public static void resetHystoryValues() {
@@ -45,10 +48,7 @@ public class SportLotoApplication {
         return BitOperations.getBitValue(historyValues, number) != 1;
     }
 
-    public boolean checkHistoryValues() {
-        //TODO сделать или убрать
-        return false;
-    }
+
 
     private static int getRandomNumber(int min, int max) {
         return (int) (Math.random() * (max-min+1) + min);

@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8a8abd9-d08c-4d0c-9d49-a36d55a76bbe" name="Default" comment="" />
+    <list default="true" id="c8a8abd9-d08c-4d0c-9d49-a36d55a76bbe" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/06_06_18_BitOperations/src/main/java/bitoperations/LongBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018_06_13_ArrayInt/2018_06_13_ArrayInt.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018_06_13_ArrayInt/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018_06_13_ArrayInt/src/main/java/ArrayInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018_06_13_ArrayInt/src/test/java/ArrayIntTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_06_18_BitOperations/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/06_06_18_BitOperations/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_06_18_BitOperations/src/main/java/bitoperations/BitOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/06_06_18_BitOperations/src/main/java/bitoperations/BitOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_06_18_BitOperations/src/test/java/bitoperations/BitOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/06_06_18_BitOperations/src/test/java/bitoperations/BitOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_06_18_BitOperations/target/classes/bitoperations/BitOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/06_06_18_BitOperations/target/classes/bitoperations/BitOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_06_18_BitOperations/target/test-classes/bitoperations/BitOperationsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/06_06_18_BitOperations/target/test-classes/bitoperations/BitOperationsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_06_18_SportLoto/src/main/java/sportloto/SportLotoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/10_06_18_SportLoto/src/main/java/sportloto/SportLotoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_06_18_SportLoto/target/classes/sportloto/SportLotoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/10_06_18_SportLoto/target/classes/sportloto/SportLotoApplication.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/06_06_18_BitOperations/target/" />
     <ignored path="$PROJECT_DIR$/10_06_18_SportLoto/target/" />
+    <ignored path="$PROJECT_DIR$/06_06_18_BitOperations/2018_06_13_arrayInt/target/" />
+    <ignored path="$PROJECT_DIR$/2018_06_13_ArrayInt/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,22 +30,59 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BitOperations.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/06_06_18_BitOperations/src/main/java/bitoperations/BitOperations.java">
+      <file leaf-file-name="LongBits.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06_06_18_BitOperations/src/main/java/bitoperations/LongBits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="130" column="74" lean-forward="true" selection-start-line="130" selection-start-column="74" selection-end-line="130" selection-end-column="74" />
+            <state>
+              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+              <folding>
+                <element signature="e#113#114#0" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BitOperationsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06_06_18_BitOperations/src/test/java/bitoperations/BitOperationsTest.java">
+      <file leaf-file-name="ArrayInt.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2018_06_13_ArrayInt/src/main/java/ArrayInt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="129" column="20" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
+            <state relative-caret-position="304">
+              <caret line="114" column="8" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
+              <folding>
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#1675#1676#0" expanded="true" />
+                <element signature="e#1757#1758#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayIntTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2018_06_13_ArrayInt/src/test/java/ArrayIntTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,9 +95,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,9 +110,13 @@
         <option value="$PROJECT_DIR$/06_06_18_BitOperations/src/test/java/bitpoerations/BitOperationsTest.java" />
         <option value="$PROJECT_DIR$/10_06_18_SportLoto/pom.xml" />
         <option value="$PROJECT_DIR$/10_06_18_SportLoto/src/test/java/sportloto/SportLotoApplicationTest.java" />
-        <option value="$PROJECT_DIR$/10_06_18_SportLoto/src/main/java/sportloto/SportLotoApplication.java" />
-        <option value="$PROJECT_DIR$/06_06_18_BitOperations/src/main/java/bitoperations/BitOperations.java" />
         <option value="$PROJECT_DIR$/06_06_18_BitOperations/src/test/java/bitoperations/BitOperationsTest.java" />
+        <option value="$PROJECT_DIR$/06_06_18_BitOperations/src/main/java/bitoperations/BitOperations.java" />
+        <option value="$PROJECT_DIR$/06_06_18_BitOperations/src/main/java/bitoperations/LongBits.java" />
+        <option value="$PROJECT_DIR$/2018_06_13_ArrayInt/pom.xml" />
+        <option value="$PROJECT_DIR$/10_06_18_SportLoto/src/main/java/sportloto/SportLotoApplication.java" />
+        <option value="$PROJECT_DIR$/2018_06_13_ArrayInt/src/test/java/ArrayIntTest.java" />
+        <option value="$PROJECT_DIR$/2018_06_13_ArrayInt/src/main/java/ArrayInt.java" />
       </list>
     </option>
   </component>
@@ -90,126 +154,15 @@
     <option name="width" value="1944" />
     <option name="height" value="1044" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="telran-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06_06_18_BitOperations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telran-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06_06_18_BitOperations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telran-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06_06_18_BitOperations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telran-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06_06_18_BitOperations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telran-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06_06_18_BitOperations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bitoperations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telran-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06_06_18_BitOperations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telran-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06_06_18_BitOperations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telran-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06_06_18_BitOperations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bitoperations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telran-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="10_06_18_SportLoto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telran-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="10_06_18_SportLoto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telran-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="10_06_18_SportLoto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telran-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="10_06_18_SportLoto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telran-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="10_06_18_SportLoto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sportloto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telran-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="10_06_18_SportLoto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telran-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="10_06_18_SportLoto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telran-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="10_06_18_SportLoto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sportloto" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -218,12 +171,14 @@
     <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
       <recent name="sportloto" />
       <recent name="bitpoerations" />
     </key>
@@ -247,35 +202,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BitOperationsTest.is2BitSum">
-    <configuration name="SportLotoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sportloto.SportLotoApplication" />
-      <module name="10_06_18_SportLoto" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sportloto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ArrayIntTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="BitOperationsTest.getBitValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="06_06_18_BitOperations" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bitoperations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="ArrayIntTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2018_06_13_ArrayInt" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="bitoperations" />
-      <option name="MAIN_CLASS_NAME" value="bitoperations.BitOperationsTest" />
-      <option name="METHOD_NAME" value="getBitValue" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayIntTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -285,65 +223,64 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BitOperationsTest.is2BitSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="06_06_18_BitOperations" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bitoperations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="ArrayIntTest.addValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2018_06_13_ArrayInt" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="bitoperations" />
-      <option name="MAIN_CLASS_NAME" value="bitoperations.BitOperationsTest" />
-      <option name="METHOD_NAME" value="is2BitSum" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="BitOperationsTest.isNbitsSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="06_06_18_BitOperations" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bitoperations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="bitoperations" />
-      <option name="MAIN_CLASS_NAME" value="bitoperations.BitOperationsTest" />
-      <option name="METHOD_NAME" value="isNbitsSum" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SportLotoApplicationTest.addValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="10_06_18_SportLoto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sportloto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sportloto" />
-      <option name="MAIN_CLASS_NAME" value="sportloto.SportLotoApplicationTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayIntTest" />
       <option name="METHOD_NAME" value="addValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ArrayIntTest.addValueToSortedAdrray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2018_06_13_ArrayInt" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayIntTest" />
+      <option name="METHOD_NAME" value="addValueToSortedAdrray" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ArrayIntTest.getValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2018_06_13_ArrayInt" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayIntTest" />
+      <option name="METHOD_NAME" value="getValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ArrayIntTest.searchSorted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2018_06_13_ArrayInt" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayIntTest" />
+      <option name="METHOD_NAME" value="searchSorted" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -393,19 +330,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SportLotoApplication" />
-      <item itemvalue="JUnit.SportLotoApplicationTest.addValue" />
-      <item itemvalue="JUnit.BitOperationsTest.isNbitsSum" />
-      <item itemvalue="JUnit.BitOperationsTest.getBitValue" />
-      <item itemvalue="JUnit.BitOperationsTest.is2BitSum" />
+      <item itemvalue="JUnit.ArrayIntTest.searchSorted" />
+      <item itemvalue="JUnit.ArrayIntTest.getValue" />
+      <item itemvalue="JUnit.ArrayIntTest.addValue" />
+      <item itemvalue="JUnit.ArrayIntTest.addValueToSortedAdrray" />
+      <item itemvalue="JUnit.ArrayIntTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BitOperationsTest.is2BitSum" />
-        <item itemvalue="JUnit.BitOperationsTest.isNbitsSum" />
-        <item itemvalue="JUnit.BitOperationsTest.getBitValue" />
-        <item itemvalue="JUnit.SportLotoApplicationTest.addValue" />
-        <item itemvalue="Application.SportLotoApplication" />
+        <item itemvalue="JUnit.ArrayIntTest" />
+        <item itemvalue="JUnit.ArrayIntTest.addValue" />
+        <item itemvalue="JUnit.ArrayIntTest.addValueToSortedAdrray" />
+        <item itemvalue="JUnit.ArrayIntTest.searchSorted" />
+        <item itemvalue="JUnit.ArrayIntTest.getValue" />
       </list>
     </recent_temporary>
   </component>
@@ -421,76 +358,131 @@
       <updated>1528650035449</updated>
       <workItem from="1528650040953" duration="880000" />
       <workItem from="1528651991619" duration="13635000" />
+      <workItem from="1528748623749" duration="819000" />
+      <workItem from="1528814975812" duration="11120000" />
+      <workItem from="1528892528380" duration="3244000" />
+      <workItem from="1528896238113" duration="8425000" />
+      <workItem from="1529173186545" duration="332000" />
+      <workItem from="1529173572571" duration="697000" />
+      <workItem from="1529233063234" duration="16229000" />
     </task>
+    <task id="LOCAL-00001" summary="added doc comment to function is2BitSum">
+      <created>1528749033726</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528749033726</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BitOperationsTest_is2BitSum - 2018.06.11 at 14h 03m 09s.xml">
-      <configuration name="BitOperationsTest.is2BitSum" configurationId="JUnit" />
+    <history-entry file="ArrayIntTest_addValueToSortedAdrray - 2018.06.17 at 19h 28m 54s.xml">
+      <configuration name="ArrayIntTest.addValueToSortedAdrray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BitOperationsTest_is2BitSum - 2018.06.11 at 14h 03m 35s.xml">
-      <configuration name="BitOperationsTest.is2BitSum" configurationId="JUnit" />
+    <history-entry file="ArrayIntTest_addValue - 2018.06.17 at 19h 29m 36s.xml">
+      <configuration name="ArrayIntTest.addValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BitOperationsTest_is2BitSum - 2018.06.11 at 14h 09m 35s.xml">
-      <configuration name="BitOperationsTest.is2BitSum" configurationId="JUnit" />
+    <history-entry file="ArrayIntTest - 2018.06.17 at 19h 29m 45s.xml">
+      <configuration name="ArrayIntTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BitOperationsTest_is2BitSum - 2018.06.11 at 22h 45m 06s.xml">
-      <configuration name="BitOperationsTest.is2BitSum" configurationId="JUnit" />
+    <history-entry file="ArrayIntTest - 2018.06.17 at 19h 31m 19s.xml">
+      <configuration name="ArrayIntTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BitOperationsTest_is2BitSum - 2018.06.11 at 23h 05m 26s.xml">
-      <configuration name="BitOperationsTest.is2BitSum" configurationId="JUnit" />
+    <history-entry file="ArrayIntTest - 2018.06.17 at 19h 32m 08s.xml">
+      <configuration name="ArrayIntTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BitOperationsTest_is2BitSum - 2018.06.11 at 23h 07m 08s.xml">
-      <configuration name="BitOperationsTest.is2BitSum" configurationId="JUnit" />
+    <history-entry file="ArrayIntTest - 2018.06.17 at 19h 32m 53s.xml">
+      <configuration name="ArrayIntTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BitOperationsTest_is2BitSum - 2018.06.11 at 23h 07m 33s.xml">
-      <configuration name="BitOperationsTest.is2BitSum" configurationId="JUnit" />
+    <history-entry file="ArrayIntTest_addValue - 2018.06.17 at 19h 36m 20s.xml">
+      <configuration name="ArrayIntTest.addValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BitOperationsTest_is2BitSum - 2018.06.11 at 23h 07m 46s.xml">
-      <configuration name="BitOperationsTest.is2BitSum" configurationId="JUnit" />
+    <history-entry file="ArrayIntTest_addValue - 2018.06.17 at 19h 36m 33s.xml">
+      <configuration name="ArrayIntTest.addValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BitOperationsTest_is2BitSum - 2018.06.11 at 23h 11m 04s.xml">
-      <configuration name="BitOperationsTest.is2BitSum" configurationId="JUnit" />
+    <history-entry file="ArrayIntTest_addValue - 2018.06.17 at 19h 38m 30s.xml">
+      <configuration name="ArrayIntTest.addValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BitOperationsTest_is2BitSum - 2018.06.11 at 23h 11m 38s.xml">
-      <configuration name="BitOperationsTest.is2BitSum" configurationId="JUnit" />
+    <history-entry file="ArrayIntTest - 2018.06.17 at 19h 38m 44s.xml">
+      <configuration name="ArrayIntTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14515000" />
+    <option name="totallyTimeSpent" value="55381000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32976827" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.18360071" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.03208556" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32955465" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.11586453" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16221035" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.28906882" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.22267206" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.021052632" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.0855615" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37967914" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3707665" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28906882" />
+      <window_info id="Structure" order="1" side_tool="true" visible="true" weight="0.021052632" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.12698413" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.039215688" />
+      <window_info anchor="right" id="Database" order="6" weight="0.22267206" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.11586453" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.03208556" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32955465" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -498,18 +490,66 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added doc comment to function is2BitSum" />
+    <option name="LAST_COMMIT_MESSAGE" value="added doc comment to function is2BitSum" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2018_06_13_ArrayInt/src/main/java/ArrayInt.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="25" />
+      <option name="time" value="60" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="(BitOperations.getBitValue(number, i) != 0)" />
+        <watch expression="(BitOperations.getBitValue(number, sum - i) != 0)" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
       <expression>
+        <expression-string>value==77</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sum==124</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>sum==125</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i==33</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sum=125</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i==61</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i==62</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -519,13 +559,239 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sum=125</expression-string>
+        <expression-string>sum==2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sum==15</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/06_06_18_BitOperations/src/main/java/bitoperations/LongBits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_06_18_SportLoto/src/main/java/sportloto/SportLotoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018_06_13_ArrayInt/src/test/java/ArrayIntTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018_06_13_ArrayInt/src/main/java/ArrayInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
+            <element signature="e#1757#1758#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_06_18_BitOperations/src/main/java/bitoperations/LongBits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_06_18_SportLoto/src/main/java/sportloto/SportLotoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018_06_13_ArrayInt/src/test/java/ArrayIntTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018_06_13_ArrayInt/src/main/java/ArrayInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_06_18_BitOperations/src/main/java/bitoperations/LongBits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_06_18_SportLoto/src/main/java/sportloto/SportLotoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018_06_13_ArrayInt/src/test/java/ArrayIntTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018_06_13_ArrayInt/src/main/java/ArrayInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_06_18_BitOperations/src/main/java/bitoperations/LongBits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_06_18_SportLoto/src/main/java/sportloto/SportLotoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="55" column="43" lean-forward="true" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
+          <folding>
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_06_18_BitOperations/src/main/java/bitoperations/BitOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2910">
+          <caret line="194" column="21" lean-forward="true" selection-start-line="194" selection-start-column="21" selection-end-line="194" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_06_18_SportLoto/src/main/java/sportloto/SportLotoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_06_18_BitOperations/src/test/java/bitoperations/BitOperationsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2175">
+          <caret line="145" column="16" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_06_18_BitOperations/src/main/java/bitoperations/LongBits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_06_18_BitOperations/src/main/java/bitoperations/BitOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_06_18_BitOperations/src/test/java/bitoperations/BitOperationsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1792">
+          <caret line="129" column="20" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_06_18_BitOperations/src/main/java/bitoperations/BitOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1820">
+          <caret line="130" column="74" lean-forward="true" selection-start-line="130" selection-start-column="74" selection-end-line="130" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_06_18_BitOperations/src/test/java/bitoperations/BitOperationsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1806">
+          <caret line="129" column="20" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/06_06_18_BitOperations/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -552,14 +818,8 @@
         <state relative-caret-position="574">
           <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
           <folding>
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1391#1392#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -568,9 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -578,9 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -606,33 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10_06_18_SportLoto/src/main/java/sportloto/SportLotoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1391#1392#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10/lib/src.zip!/java.base/java/lang/Long.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="69" column="68" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -650,20 +877,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10/lib/src.zip!/java.base/java/lang/Long.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="69" column="67" lean-forward="true" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/06_06_18_BitOperations/src/test/java/bitoperations/BitOperationsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="129" column="20" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
+        <state relative-caret-position="1900">
+          <caret line="145" column="16" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_06_18_BitOperations/src/main/java/bitoperations/BitOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="181" column="25" lean-forward="true" selection-start-line="181" selection-start-column="25" selection-end-line="181" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018_06_13_ArrayInt/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="233" selection-start-line="233" selection-end-line="233" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_06_18_SportLoto/src/main/java/sportloto/SportLotoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_06_18_BitOperations/src/main/java/bitoperations/LongBits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.2.0/junit-jupiter-api-5.2.0.jar!/org/junit/jupiter/api/Assertions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
+          <folding>
+            <element signature="e#4750#4751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018_06_13_ArrayInt/src/test/java/ArrayIntTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06_06_18_BitOperations/src/main/java/bitoperations/BitOperations.java">
+    <entry file="file://$PROJECT_DIR$/2018_06_13_ArrayInt/src/main/java/ArrayInt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="130" column="74" lean-forward="true" selection-start-line="130" selection-start-column="74" selection-end-line="130" selection-end-column="74" />
+        <state relative-caret-position="304">
+          <caret line="114" column="8" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
+            <element signature="e#1757#1758#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -719,7 +1023,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>10_06_18_SportLoto</last-edited>
+          <last-edited>2018_06_13_ArrayInt</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
