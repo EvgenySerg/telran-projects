@@ -23,17 +23,19 @@ public class ArrayInt {
         if (ar.length==0){
             return;
         }
+
         this.size=ar.length;
 
 
         this.ar[0]=ar[0];
         flSorted=true;
         for (int i=1; i<ar.length; i++) {
-            this.ar[i] = ar[i];
+           this.ar[i] = ar[i];
             if (this.ar[i - 1] > ar[i]) {
                 this.flSorted=false;
             }
         }
+        int a=0;
     }
 
     public int search(int value) {
@@ -78,10 +80,11 @@ public class ArrayInt {
         }
         if (flSorted){
             addValueByIndex(binarySearch(value), value);
-            size++;
-            return;
+        } else {
+            this.ar[size]=value;
         }
-        this.ar[size++]=value;
+        size++;
+
     }
 
     private void copyArray(int[] destArray){

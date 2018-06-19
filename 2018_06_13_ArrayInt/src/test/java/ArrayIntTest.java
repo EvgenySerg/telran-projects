@@ -40,14 +40,14 @@ class ArrayIntTest {
     }
 
     private void fillArray(ArrayInt arrayInt) {
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 10000; i++) {
             arrayInt.addValue(i);
         }
     }
 
     private void testArray(ArrayInt arrayInt ) {
         for (int i = 0; i < arrayInt.size;i++) {
-            assertEquals(arrayInt.getAr()[i],(int)arrayInt.getValue(i));
+            assertEquals(i,(int)arrayInt.getValue(i));
         }
     }
 
