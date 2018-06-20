@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8a8abd9-d08c-4d0c-9d49-a36d55a76bbe" name="Default" comment="added doc comment to function is2BitSum">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="c8a8abd9-d08c-4d0c-9d49-a36d55a76bbe" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/06_06_18_BitOperations/06_06_18_BitOperations.iml" afterPath="$PROJECT_DIR$/06_06_18_BitOperations/06_06_18_BitOperations.iml" />
-      <change beforePath="$PROJECT_DIR$/06_06_18_BitOperations/pom.xml" afterPath="$PROJECT_DIR$/06_06_18_BitOperations/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/10_06_18_SportLoto/10_06_18_SportLoto.iml" afterPath="$PROJECT_DIR$/10_06_18_SportLoto/10_06_18_SportLoto.iml" />
-      <change beforePath="$PROJECT_DIR$/2018_06_13_ArrayInt/2018_06_13_ArrayInt.iml" afterPath="$PROJECT_DIR$/2018_06_13_ArrayInt/2018_06_13_ArrayInt.iml" />
-      <change beforePath="$PROJECT_DIR$/2018_06_13_ArrayInt/pom.xml" afterPath="$PROJECT_DIR$/2018_06_13_ArrayInt/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/2018_06_13_ArrayInt/src/main/java/ArrayInt.java" afterPath="$PROJECT_DIR$/2018_06_13_ArrayInt/src/main/java/ArrayInt.java" />
-      <change beforePath="$PROJECT_DIR$/2018_06_13_ArrayInt/src/test/java/ArrayIntTest.java" afterPath="$PROJECT_DIR$/2018_06_13_ArrayInt/src/test/java/ArrayIntTest.java" />
       <change beforePath="$PROJECT_DIR$/2018_06_13_ArrayInt/target/classes/ArrayInt.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/2018_06_13_ArrayInt/target/test-classes/ArrayIntTest.class" afterPath="$PROJECT_DIR$/2018_06_13_ArrayInt/target/test-classes/ArrayIntTest.class" />
     </list>
@@ -500,7 +491,7 @@
       <workItem from="1529436887335" duration="607000" />
       <workItem from="1529445653685" duration="14244000" />
       <workItem from="1529514611621" duration="6674000" />
-      <workItem from="1529530084379" duration="3244000" />
+      <workItem from="1529530084379" duration="3304000" />
     </task>
     <task id="LOCAL-00001" summary="added doc comment to function is2BitSum">
       <created>1528749033726</created>
@@ -509,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528749033726</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added shuffle and calculated koefficient of correlation of shuffle result">
+      <created>1529533385404</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1529533385405</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -545,7 +543,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80331000" />
+    <option name="totallyTimeSpent" value="80391000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -596,7 +594,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added doc comment to function is2BitSum" />
-    <option name="LAST_COMMIT_MESSAGE" value="added doc comment to function is2BitSum" />
+    <MESSAGE value="added shuffle and calculated koefficient of correlation of shuffle result" />
+    <option name="LAST_COMMIT_MESSAGE" value="added shuffle and calculated koefficient of correlation of shuffle result" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1021,6 +1020,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
