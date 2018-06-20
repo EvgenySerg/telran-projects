@@ -491,7 +491,7 @@
       <workItem from="1529436887335" duration="607000" />
       <workItem from="1529445653685" duration="14244000" />
       <workItem from="1529514611621" duration="6674000" />
-      <workItem from="1529530084379" duration="3304000" />
+      <workItem from="1529530084379" duration="3319000" />
     </task>
     <task id="LOCAL-00001" summary="added doc comment to function is2BitSum">
       <created>1528749033726</created>
@@ -507,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529533385405</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added shuffle and calculated koefficient of correlation of shuffle result">
+      <created>1529533396167</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1529533396167</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -543,7 +550,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80391000" />
+    <option name="totallyTimeSpent" value="80406000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
