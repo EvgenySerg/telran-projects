@@ -1,9 +1,6 @@
 import org.junit.jupiter.api.Test;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.Arrays;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class ArrayIntTest {
@@ -37,7 +34,8 @@ class ArrayIntTest {
     @Test
     void addValue() {
         ArrayInt arrayInt = new ArrayInt();
-        fillArray(arrayInt);
+        int[] ar=new int[10000];
+        fillArray(arrayInt,ar);
         testArray(arrayInt);
 
     }
@@ -87,33 +85,17 @@ class ArrayIntTest {
 
     @Test
     public void shuffle() {
-        int ar[] = new int[10000];
+        double lastK=10;
+        for (int i=0;i<1000;i++){
+        int ar[] = new int[1000];
         ArrayInt array= new ArrayInt();
         fillArray(array, ar);
-        ArrayInt arraySh = new ArrayInt(ar);
-        arraySh.shuffle();
-        testAfterShuffle(array, arraySh);
-        ArrayInt arraySh1 = new ArrayInt(ar);
-        arraySh1.shuffle();
-        testAfterShuffle(arraySh, arraySh1);
-
-        fail("The test does not implemented");
-    }
-
-    private void testAfterShuffle(ArrayInt array, ArrayInt arraySh) {
-        int[] ar1 = getArray(array);
-        int[] ar2=getArray(arraySh);
-        testSameNumbers(ar1, ar2);
-        assertFalse(Arrays.equals(ar1,ar2));
-    }
-
-    private void testSameNumbers(int[] ar1, int[] ar2) {
-
-        int[] ar1Sorted = Arrays.copyOf(ar1, ar1.length);
-        int[] ar2Sorted = Arrays.copyOf(ar2, ar2.length);
-        Arrays.sort(ar1Sorted);
-        Arrays.sort(ar2Sorted);
-        assertArrayEquals(ar1,ar2);
+            array.shuffle();
+            double k=array.getShuffleCorrelationKoefficient();
+            assertTrue((k<0?-k:k)<0.1);
+            assertNotEquals(lastK,k);
+            lastK=k;
+        }
     }
 
     private int[] getArray(ArrayInt array) {
@@ -122,6 +104,7 @@ class ArrayIntTest {
         for (int i = 0; i < size; i++) {
             res[i] = array.getValue(i);
         }
+        return res;
     }
 
     @Test

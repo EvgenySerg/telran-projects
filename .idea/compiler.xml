@@ -13,8 +13,7 @@
     <bytecodeTargetLevel>
       <module name="06_06_18_BitOperations" target="1.5" />
       <module name="10_06_18_SportLoto" target="1.5" />
-      <module name="2018_06_13_ArrayInt" target="1.5" />
-      <module name="_2018_06_13_arrayInt" target="1.5" />
+      <module name="2018_06_13_ArrayInt" target="9" />
     </bytecodeTargetLevel>
   </component>
 </project>

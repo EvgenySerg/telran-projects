@@ -1,9 +1,13 @@
+import java.util.Random;
+
 public class ArrayInt {
     private int[] ar;
     private boolean flSorted;
     public int size;
     private static final int INITIAL_CAPCITY = 16;
     private static final int ARRAY_SIZE_MULTIPLIER=2;
+    Random rnd=new Random(System.nanoTime());
+
 
     public int[] getAr() {
         return ar;
@@ -178,10 +182,48 @@ public class ArrayInt {
      * mix order of numbers in the random order
      */
     public void shuffle() {
+        double k=1;
+        double desiredKValue=0.1;
+        do {
+            for (int i = this.size-1; i >0; i--) {
+                int index = (int) (rnd.nextDouble() * this.size);
+                int tmp = this.ar[i];
+                this.ar[i] = this.ar[index];
+                this.ar[index] = tmp;
+            }
+            k=getShuffleCorrelationKoefficient();
+        }
+        while ((k<0?-k:k) > desiredKValue) ;
+    }
 
+    public double getShuffleCorrelationKoefficient(){
+        double size=this.size;
+        double avgY = 0, avgX = 0, drobX = 0, drobY = 0;
+
+        for (int i = 0; i < size; i++) {
+            avgY += (double) getValue(i) / size;
+            avgX += (double) i / size;
+        }
+        for (int i = 0; i < size; i++) {
+            drobX += Math.pow((double) i - avgX, 2);
+            drobY += Math.pow(getValue(i) - avgY, 2);
+        }
+
+        double sigmaX = Math.sqrt(1 / (size - 1) * drobX);
+        double sigmaY = Math.sqrt(1 / (size - 1) * drobY);
+        double koefKor = (1 / (size - 2));
+        double sumForKoef = 0;
+        for (int i = 0; i < size; i++) {
+            sumForKoef += (((double) i - avgX) / sigmaX) * (getValue(i) - avgY) / sigmaY;
+        }
+        koefKor = koefKor * sumForKoef;
+       // System.out.println(koefKor);
+
+        return koefKor;
     }
 
     public void sort() {
-        //TODO - sort without libraries
+
+
     }
 }
