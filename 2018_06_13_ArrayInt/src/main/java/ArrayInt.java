@@ -9,6 +9,18 @@ public class ArrayInt {
         return ar;
     }
 
+    public boolean isSorted(){
+        return flSorted;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public ArrayInt() {
+        this.ar = new int[INITIAL_CAPCITY];
+    }
+
     public ArrayInt(int[] ar) {
         if (ar==null){
             return;
@@ -19,14 +31,11 @@ public class ArrayInt {
         } else {
             this.ar = new int[ar.length];
         }
-
         if (ar.length==0){
             return;
         }
 
         this.size=ar.length;
-
-
         this.ar[0]=ar[0];
         flSorted=true;
         for (int i=1; i<ar.length; i++) {
@@ -35,7 +44,6 @@ public class ArrayInt {
                 this.flSorted=false;
             }
         }
-        int a=0;
     }
 
     public int search(int value) {
@@ -79,16 +87,20 @@ public class ArrayInt {
             enlargeArray();
         }
         if (flSorted){
-            addValueByIndex(binarySearch(value), value);
+            insertToSortedArray(value);
         } else {
-            this.ar[size]=value;
+           insertToUnsortedArray(value);
         }
         size++;
 
     }
 
-    private void copyArray(int[] destArray){
+    private void insertToUnsortedArray(int value){
+        this.ar[this.size]=value;
+    }
 
+
+    private void copyArray(int[] destArray){
         for (int i=0;i<this.ar.length;i++){
             destArray[i] = this.ar[i];
         }
@@ -100,10 +112,13 @@ public class ArrayInt {
         copyArray(ar1);
     }
 
-    private void addValueByIndex(int index, int value) {
-       int idx=-index-1;
-        int tmp;
-        int tmp1;
+    private void insertToSortedArray(int value) {
+        int idx=binarySearch(value);
+        if (idx<0){
+            idx=-idx-1;
+        }
+
+        int tmp, tmp1;
         tmp = this.ar[idx];
         for (int i=idx;i<this.size;i++){
             tmp1=this.ar[i+1];
@@ -113,9 +128,60 @@ public class ArrayInt {
       this.ar[idx]=value;
     }
 
-    public Integer deleteValue(int index) {
+    /**
+     * Removes number at given index
+     * @param index
+     * @return true idf index is correct
+     */
+    public boolean remove(int index){
+        if (index<0 && index>=size){
+            return false;
+        }
+
+        return true;
+    }
 
 
-        return null;
+
+
+
+
+
+
+    public Integer deleteValue(int value) {
+        int idx;
+        if (flSorted){
+            idx=binarySearch(value);
+        } else {
+            idx=search(value);
+        }
+        if (idx < 0) {
+            return null;
+        }
+
+        return !deleteValueByIndex(idx)?null:idx;
+    }
+
+    private boolean deleteValueByIndex(int index) {
+        if (index<=0){
+            return false;
+        }
+        for (int i = index+1; i < size; i++) {
+               ar[i-1]=ar[i];
+        }
+        //ar[size-1]=0;
+        size--;
+        return true;
+    }
+
+    /**
+     * mix order of numbers in the random order
+     */
+    public void shuffle() {
+
+    }
+
+    public void sort() {
+        //TODO - sort without libraries
     }
 }
